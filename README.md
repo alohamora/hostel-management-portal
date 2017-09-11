@@ -8,7 +8,9 @@
 - all the features defined above
 - validate user request
 - resolve complaints
-
+### Security features
+- CSRF disabled using csrf protection
+- caching disabled after login of user
 ### Instructions to run the app on local machine:
 
 - go to directory hostel_portal<br/>
