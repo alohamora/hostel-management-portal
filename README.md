@@ -1,4 +1,13 @@
 # Hostel Management Portal
+### Features of the webapp
+#### for students
+- search all the students of the hostel
+- add complaints regarding hostel and answer them.
+- give ratings to other students
+#### for hostel admin
+- all the features defined above
+- validate user request
+- resolve complaints
 
 ### Instructions to run the app on local machine:
 
