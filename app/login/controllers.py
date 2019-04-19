@@ -55,6 +55,7 @@ def login():
 def loginAd():
     username = request.form['username']
     password = request.form['password']
+    print(username, password)
     admin = Admin.query.filter_by(email = username).first()
     token = session.pop('_csrf_token',None)    
     if not token or token!= request.form.get('_csrf_token'):
